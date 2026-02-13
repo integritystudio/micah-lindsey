@@ -1,0 +1,20 @@
+# Author data - DRY consolidation
+# Referenced by _config.yml via: author: micah_lindsey
+# Minimal Mistakes looks up site.data.authors[site.author]
+
+micah_lindsey:
+  name: Micah Lindsey
+  avatar: /assets/images/bio-photo.jpg
+  bio: Trust & Safety Professional | ex-Meta | Data Analysis & Fraud Prevention
+  location: Austin, TX
+  email: micah@integritystudio.ai
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/micahlindsey"
+    - label: "IntegrityStudio"
+      icon: "fas fa-fw fa-shield-alt"
+      url: "https://integritystudio.ai"
+    - label: "Angelo State University"
+      icon: "fas fa-fw fa-university"
+      url: "https://www.angelo.edu"

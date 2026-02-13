@@ -1,0 +1,10 @@
+{% comment %}
+Shared layout header - DRY consolidation of common layout opening
+Used by: single.html, archive.html
+{% endcomment %}
+{% include page-header.html %}
+
+{% include breadcrumbs-wrapper.html %}
+
+<div id="page-wrapper">
+  {% include sidebar.html %}

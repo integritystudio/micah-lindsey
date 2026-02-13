@@ -1,0 +1,145 @@
+# Site Wide Configs
+title: Micah Lindsey
+title_separator: "-"
+# subtitle:
+description: Personal site of Micah Lindsey - Trust & Safety Professional, ex-Meta, specializing in business integrity, fraud prevention, and data analysis.
+url: https://www.micahlindsey.com
+locale: en_US
+encoding: utf-8
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+defaults:
+  # posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      show_date: true
+      author_profile: true
+  # pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      show_date: false
+      breadcrumbs: false
+  # reports
+  - scope:
+      path: ""
+      type: reports
+    values:
+      layout: single
+      breadcrumbs: false
+      author_profile: true
+  # work
+  - scope:
+      path: ""
+      type: work
+    values:
+      layout: single
+      breadcrumbs: false
+      author_profile: true
+social:
+  name: Micah Lindsey
+
+
+# Github
+github: 		[metadata]
+
+# Theme
+
+
+# Jekyll build configuration
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+permalink:   /:categories/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-include-cache
+
+# Styling
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Exclude from processing
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - mise.toml
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - schema-org-optimizer.md
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - Capfile
+  - CHANGELOG
+  - config/Gemfile
+  - config/package.json
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - minimal-mistakes-jekyll.gemspec
+  - node_modules
+  - Rakefile
+  - README
+  - tmp
+  - test_results
+  - tests
+keep_files:
+  - .git
+  - .svn
+
+# Pagination with jekyll-paginate
+paginate: 8 # amount of posts to show
+paginate_path: /page:num/
+
+
+# Author - references _data/authors.yml for DRY consolidation
+author: micah_lindsey
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  reports:
+    output: true
+    permalink: /:collection/:path/
+  work:
+    output: true
+    permalink: /work/:path/
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development

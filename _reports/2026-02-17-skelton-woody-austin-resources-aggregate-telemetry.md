@@ -8,8 +8,6 @@ categories: [telemetry]
 tags: [opentelemetry, observability, session-analysis, llm-as-judge, quality-metrics, aggregate, multi-session, provenance, skelton-woody, opportunity-analysis, temporal-verification]
 header:
   image: /assets/images/cover-reports.png
-url: https://www.aledlie.com/reports/2026-02-17-skelton-woody-austin-resources-aggregate-telemetry/
-permalink: /reports/2026-02-17-skelton-woody-austin-resources-aggregate-telemetry/
 schema_type: analysis-article
 schema_genre: "Session Report"
 ---

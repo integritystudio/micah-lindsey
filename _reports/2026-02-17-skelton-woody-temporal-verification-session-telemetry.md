@@ -8,8 +8,6 @@ categories: [telemetry]
 tags: [opentelemetry, observability, session-analysis, llm-as-judge, quality-metrics, skelton-woody, temporal-verification, hallucination-reduction, fact-checking]
 header:
   image: /assets/images/cover-reports.png
-url: https://www.aledlie.com/reports/2026-02-17-skelton-woody-temporal-verification-session-telemetry/
-permalink: /reports/2026-02-17-skelton-woody-temporal-verification-session-telemetry/
 schema_type: analysis-article
 schema_genre: "Session Report"
 ---

@@ -8,8 +8,6 @@ categories: [telemetry]
 tags: [opentelemetry, observability, session-analysis, llm-as-judge, quality-metrics, aggregate, multi-session, provenance, feature-engineering, frontend, dashboard]
 header:
   image: /assets/images/cover-reports.png
-url: https://www.aledlie.com/reports/2026-02-17-frontend-f1-f6-implementation-aggregate-telemetry/
-permalink: /reports/2026-02-17-frontend-f1-f6-implementation-aggregate-telemetry/
 schema_type: analysis-article
 schema_genre: "Session Report"
 ---
